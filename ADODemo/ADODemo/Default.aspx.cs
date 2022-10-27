@@ -13,7 +13,7 @@ namespace ADODemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("data source=IN-LT-SPARE09\\SQL2019; database=Sample; integrated security=SSPI");
+            SqlConnection con = new SqlConnection("data source=<server name>; database=Sample; integrated security=SSPI");
             SqlCommand cmd = new SqlCommand("SELECT * FROM tblDevice", con);
             con.Open();
             SqlDataReader reader = cmd.ExecuteReader();
