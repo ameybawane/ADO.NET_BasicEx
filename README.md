@@ -1,1 +1,2 @@
 # ADO.NET_BasicEx
+ADO.NET is a data access technology from Microsoft .Net Framework , which provides communication between relational and non-relational systems through a common set of components . ADO.NET consist of a set of Objects that expose data access services to the .NET environment. ADO.NET is designed to be easy to use, and Visual Studio provides several wizards and other features that you can use to generate ADO.NET data access code.
